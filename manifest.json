@@ -1,0 +1,13 @@
+{
+  "name": "Twitter Verified Account Reply Remover",
+  "description": "Removes verified accounts from twitter replies, specifically meant to target gimmick and ads for accounts.",
+  "version": "0.1",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://x.com/*"],
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "Twitter_Verified_Badge.png",
+    "default_title": "Verified REMOVER"
+  }
+}
